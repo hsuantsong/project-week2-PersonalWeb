@@ -149,7 +149,7 @@ a {
 
 * {
     box-sizing: border-box;
-    outline: 1px gray solid;
+    /*outline: 1px gray solid;*/
 }
 
 .fz-16 {
@@ -354,8 +354,12 @@ a {
     padding: 96px 0;
 }
 
-.links li:hover img {
-    box-shadow: (0 0 16px 3px rgba(144, 148, 255, 0.9));
+.links img {
+    border-radius: 45px;
+}
+
+.links img:hover {
+    box-shadow: 0 0 16px 3px rgba(144, 148, 255, 0.9);
 }
 
 .projects {
